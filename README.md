@@ -30,9 +30,9 @@ This project is used by the following features:
 
 ## Web UI
 
-![Alt text](/ss/1.png?raw=true "Optional Title")
-![Alt text](/ss/2.png?raw=true "Optional Title")
+![Alt text](./ss/1.png?raw=true "Optional Title")
+![Alt text](./ss/2.png?raw=true "Optional Title")
 
 ## Client Server Call(Python Flask)
-![Alt text](/ss/3.png?raw=true "Optional Title")
-![Alt text](/ss/4.png?raw=true "Optional Title")
+![Alt text](./ss/3.png?raw=true "Optional Title")
+![Alt text](./ss/4.png?raw=true "Optional Title")
