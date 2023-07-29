@@ -1,20 +1,17 @@
 
 # House Price Prediction
 
-A Machine Learning Model to predict the House price Prediction based on the area and BHK.
+A Machine Learning Model to predict the House price based on the area,number of BHK,number of bathrooms andSqft required.
 
 
 
-## Tech Stack
+## Technologies Used
 
 **Client:** HTML,CSS,JS
 
 **Server:** Python Flask.
 
 
-## Features
-
-Any additional information goes here
 
 
 ## Features
