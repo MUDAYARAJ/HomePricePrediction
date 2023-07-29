@@ -34,5 +34,5 @@ This project is used by the following features:
 ![Alt text](./ss/2.png)
 
 ## Client Server Call(Python Flask)
-![Alt text](./ss/3.png)
+![Alt text](https://github.com/MUDAYARAJ/HomePricePrediction/blob/main/ss/4.png)
 ![Alt text](./ss/4.png)
