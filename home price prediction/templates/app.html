@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Home Price</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+     <div class="body">
+        <form class="form">
+            <h2>Area(Sqft)</h2>
+            <input class="area" type="email" id="uiSqft" class="floatLabel" name="Squareft" value="1000">
+            <h2>BHK</h2>
+            <input type="radio" id="radio-1bhk" name="uiBHK" value="1">
+            <label for="radio-1bhk">1</label>
+            <input type="radio" id="radio-2bhk" name="uiBHK" value="2">
+            <label for="radio-2bhk">2</label>
+            <input type="radio" id="radio-3bhk" name="uiBHK" value="3">
+            <label for="radio-3bhk">3</label>
+            <input type="radio" id="radio-4bhk" name="uiBHK" value="4">
+            <label for="radio-4bhk">4</label>
+            <input type="radio" id="radio-5bhk" name="uiBHK" value="5">
+            <label for="radio-5bhk">5</label>
+        </form>
+        <form class="form">
+            <h2>Bathroom</h2>
+            <div class="switch-field">
+                <input type="radio" id="radio-bath-1" name="uiBathrooms" value="1" />
+                <label for="radio-bath-1">1</label>
+                <input type="radio" id="radio-bath-2" name="uiBathrooms" value="2" />
+                <label for="radio-bath-2">2</label>
+                <input type="radio" id="radio-bath-3" name="uiBathrooms" value="3" />
+                <label for="radio-bath-3">3</label>
+                <input type="radio" id="radio-bath-4" name="uiBathrooms" value="4" />
+                <label for="radio-bath-4">4</label>
+                <input type="radio" id="radio-bath-5" name="uiBathrooms" value="5" />
+                <label for="radio-bath-5">5</label>
+            </div>
+            <h2>Location</h2>
+            <div>
+                <select class="location" name="" id="uiLocations">
+        <option value="" disabled="disabled" selected="selected">Choose a Location</option>
+            <option>Electronic City</option>
+            <option>Rajaji Nagar</option>
+      </select>
+            </div>
+            <div style="padding-top: 20px;"></div>
+            <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+            <div id="uiEstimatedPrice" class="result">
+                <h2 style="font-size: medium;">Select to get Estimated Price</h2>
+            </div>
+     </div>
+</body>
+
+</html>
